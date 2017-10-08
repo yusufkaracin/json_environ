@@ -10,12 +10,11 @@ JSON Environ
         :target: https://json-environ.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/yusufkaracin/json_environ/shield.svg
-     :target: https://pyup.io/repos/github/yusufkaracin/json_environ/
-     :alt: Updates
 
 
-Utilize environment variables from JSON file to configure your Python application.
+Utilize environment variables from JSON file to configure your Python application. Inspired from `django-environ`_.
+
+.. _django-environ: https://github.com/joke2k/django-environ
 
 
 * Free software: MIT license

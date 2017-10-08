@@ -11,22 +11,14 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [
-    # TODO: put package requirements here
-]
-
-setup_requirements = [
-    # TODO(yusufkaracin): put setup requirements (distutils extensions, etc.) here
-]
-
-test_requirements = [
-    # TODO: put package test requirements here
-]
+requirements = []
+setup_requirements = []
+test_requirements = []
 
 setup(
     name='json_environ',
     version='0.1.0',
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="Utilize environment variables from JSON file to configure your Python application.",
     long_description=readme + '\n\n' + history,
     author="Yusuf Karaçin",
     author_email='ysfbkrcn@gmail.com',
@@ -36,15 +28,12 @@ setup(
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='json_environ',
+    keywords='json environment variables configuration',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
