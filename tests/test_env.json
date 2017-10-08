@@ -1,0 +1,14 @@
+{
+    "SECRET": "secret",
+    "NUMBER": 3,
+    "DEBUG": true,
+    "WRONG": false,
+    "NULL": null,
+    "LIST": ["*"],
+    "NESTED": {
+        "another": {"ONE": 1.0},
+        "NAME": "test",
+        "PASSWORD": 123,
+        "LIST": ["*"]
+    }
+}

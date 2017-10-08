@@ -6,9 +6,6 @@ JSON Environ
 .. image:: https://img.shields.io/pypi/v/json_environ.svg
         :target: https://pypi.python.org/pypi/json_environ
 
-.. image:: https://img.shields.io/travis/yusufkaracin/json_environ.svg
-        :target: https://travis-ci.org/yusufkaracin/json_environ
-
 .. image:: https://readthedocs.org/projects/json-environ/badge/?version=latest
         :target: https://json-environ.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
@@ -18,17 +15,13 @@ JSON Environ
      :alt: Updates
 
 
-Python Boilerplate contains all the boilerplate you need to create a Python package.
+Utilize environment variables from JSON file to configure your Python application.
 
 
 * Free software: MIT license
 * Documentation: https://json-environ.readthedocs.io.
 
 
-Features
---------
-
-* TODO
 
 Credits
 ---------

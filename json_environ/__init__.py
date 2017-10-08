@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Top-level package for JSON Environ."""
+from json_environ.json_environ import Environ
 
 __author__ = """Yusuf Karaçin"""
 __email__ = 'ysfbkrcn@gmail.com'
