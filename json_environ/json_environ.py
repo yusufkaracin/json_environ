@@ -32,7 +32,8 @@ class Environ(object):
             return structure
         except KeyError:
             if default is self.__NOTSET:
-                raise KeyError("{key} is not found in {path}".format(key=key, path=self.__path))
+                raise KeyError("{key} is not found in {path}"
+                               .format(key=key, path=self.__path))
             return default
 
     def __str__(self):

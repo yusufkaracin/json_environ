@@ -69,3 +69,14 @@ class TestJsonEnviron(unittest.TestCase):
         env = Environ(path=self.env_path)
         self.assertEqual(env("NESTED:nope", default='ok'), 'ok')
         self.assertEqual(env("nope:nope:nope", default='ok'), 'ok')
+
+    def test_custom_separator(self):
+        env = Environ(path=self.env_path, key_separator=">")
+        with self.assertRaises(KeyError):
+            env("NESTED>nope")
+        with self.assertRaises(KeyError):
+            env("NESTED:NAME")
+
+        self.assertEqual(env("NESTED>nope", default='ok'), 'ok')
+        self.assertEqual(env("NESTED>NAME", default=True), "test")
+        self.assertEqual(env("NESTED>NAME"), "test")
