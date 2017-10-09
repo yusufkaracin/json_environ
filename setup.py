@@ -17,7 +17,7 @@ test_requirements = []
 
 setup(
     name='json_environ',
-    version='0.1.0',
+    version='0.1.1',
     description="Utilize environment variables from JSON file to configure your Python application.",
     long_description=readme + '\n\n' + history,
     author="Yusuf Karaçin",
