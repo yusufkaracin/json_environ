@@ -62,6 +62,8 @@ class TestJsonEnviron(unittest.TestCase):
         env = Environ(path=self.env_path)
         with self.assertRaises(KeyError):
             env("NESTED:nope")
+        with self.assertRaises(KeyError):
+            env("nope:nope")
 
     def test_not_existing_nested_key_with_default(self):
         env = Environ(path=self.env_path)
