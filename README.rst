@@ -20,7 +20,7 @@ Utilize environment variables from JSON file to configure your Python applicatio
 * Free software: MIT license
 * Documentation: https://json-environ.readthedocs.io.
 
-.. include:: ../USAGE.rst
+.. include:: ./USAGE.rst
 
 Credits
 ---------
